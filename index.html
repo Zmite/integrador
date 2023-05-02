@@ -8,28 +8,55 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- ESTILOS CSS EXTERNOS -->
     <link rel="stylesheet" href="css/normalize.css">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- TÍTULO -->
     <title>Transportes</title>
 
 </head>
 <body>
     <header>
-        <img src="/images/Logo.jpeg" alt="Logo Transportes">
-        <h1>TransportesX</h1>
+        <div class="holder">
+            <img src="/images/Logo.jpeg" alt="Logo Transportes">
+            <h1>TransportesX</h1>
+        </div>
     </header>
     <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="">Galeria</a></li>
-            <li><a href="">Novedades</a></li>
-            <li><a href="">Contactos</a></li>      
-        </ul>
+        <div>
+            <ul class="holder">
+                <li><a class="activo" href="">Home</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="">Novedades</a></li>
+                <li><a href="">Contactos</a></li>      
+            </ul>
+        </div>
     </nav>
     
-    <main>
-    
+    <main class="holder">
+        <div class="homeImg">
+            <img src="/images/imagenCamion.jpeg" alt="CamionHome">
+        </div>
+        <div class="columns">
+            <div class="bienvenidos left"><h2>bienvenidos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eius odit excepturi laborum accusamus aliquid id! Vitae harum repudiandae repellendus recusandae error eaque repellat pariatur eligendi, ut officia blanditiis maiores!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores facilis necessitatibus ipsa nulla. Exercitationem blanditiis voluptatibus nihil recusandae laboriosam, autem consequatur provident a reprehenderit aliquid tempora tempore laborum? Architecto, officiis?</p>
+            </div>
+            <div class="testimonios right"><h2>Testimonios</h2>
+            </div>
+            <div class="testimonio">
+                <span class="cita">
+                    Simplemente Exelente
+                </span>
+                <span class="autor">
+                    Juan Perez - Zapatos.com
+                </span>
+            </div>
+        </div>
+
     </main>
     <footer>
         <p>Diseñado por Jhon Doe - &copy; año 2023</p>
