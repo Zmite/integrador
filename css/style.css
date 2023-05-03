@@ -9,7 +9,7 @@ body{
     margin: 0 auto;
 }
 
-/* HEADER */
+/* ESTILOS HEADER */
 header{
     background-color: #2e64a1;
     padding: 1em 0;
@@ -25,6 +25,7 @@ header h1{
     bottom: 30px;
 }
 
+ /* ESTILOS NAVBAR */
 nav{
     background-color: #6da9ed;
     margin-bottom: 2em;
@@ -64,8 +65,8 @@ nav ul li a:hover {
 /* ESTILOS MAIN */
 h2{
     color: #2e64a1;
-    margin: 0 0 1m;
     font-weight: 400;
+    margin: 0 0 1em;
 }
 
 .left{
@@ -81,7 +82,8 @@ h2{
 .columns{
     overflow: hidden;
 }
-.bienvenidos, .testimonios{
+
+.bienvenidos, .testimonios {
     box-sizing: border-box;
 }
 .bienvenidos{
@@ -89,19 +91,31 @@ h2{
     padding-right: 2em;
 }
 
+.testimonios {
+    width: 25%;
+}
+
 .testimonio{
     background-color: #ccc;
     padding: 1em;
 }
+
 .testimonio .cita{
     font-weight: bold;
     font-style: italic;
-    font-size: 1,4em;
+    font-size: 1.4em;
     display: block;
 }
 
+.testimonio .autor {
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
 
-/* FOOTER */
+}
+
+/* ESTILOS FOOTER */
 
 footer{
     background-color: #ccc;
